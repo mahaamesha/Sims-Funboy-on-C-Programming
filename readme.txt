@@ -44,6 +44,7 @@ Activities:	Happiness	Social	Hygiene	Health	Money	Energy
 - Hangout	+15		+20	-10	-10	-20	-10
 - Study		-15		+5	-5	-10	0	-20
 - Party		+30		+25	-10	+5	-25	-15
+- (Diam)        -5              -5      -5      -5      0       -5
 
 
 FITUR TAMBAHAN (akan ditambahkan pada versi selanjutnya)

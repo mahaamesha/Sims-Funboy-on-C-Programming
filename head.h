@@ -3,18 +3,26 @@
 
 typedef struct {
     char name[30];
-    int life;
-    int hepi, sosial, uang;
+    int life, energy;
+    int happiness, social, hygiene, health, money;
 }fanboy;
-
 fanboy crFanboy;
 
-void statsAwal();
-void tidur();
-void opsi();
+typedef struct {
+    char name[30];
+    int impHappiness;
+    int impSocial;
+    int impHygiene;
+    int impHealth;
+    int impMoney;
+    int impEnergy;
+    int imp0;
+}activities;
+activities act[11];
 
-void act1();
-void act2();
-void act3();
-//fanboy statsAwal() {}
-//fanboy tidur() {}
+void statsAwal();
+void initAct();
+void Action(fanboy *p, activities *a);
+void valid();
+void pStats();
+void pAct();

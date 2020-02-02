@@ -4,43 +4,49 @@ Anggota: Avima Haamesha		16019102
 	 Rexy Gamaliel R.	16519132
 	 M. Fakhry Fernanda	10118096
 
-Games simulasi terinspirasi dari the sims, user memainkan seorang avatar dengan kondisi stats 
+Game ini terinspirasi dari The Sims, user memainkan seorang avatar dengan kondisi stats 
 tertentu.
-Win Identification: mencapai parameter maksimum dari salah satu stats
+Win Identification: mendapatkan 100 money atau lebih
 Lose Identification: Energy 0 ->> Life 0
 
 Stats Avatar:
--life, exp, energy, brain, money
--strengLvl, healthLvl, mentalLvl, spiritLvl, cleanLvl, hungerLvl, loveLvl, happinessLvl
+- Life
+- Happiness
+- Social
+- Hygiene
+- Health
+- Money
+- Energy
 
 Activities:
--sleep				-hobby
--study				-pray
--takeabath			-playwithfriend
--doingsport			-eat
--job				-party
+- Sleep				- Hobby
+- Eat				- Pray
+- Bath				- Hangout
+- Sport				- Study
+- Work				- Party
 
-//Edit (saran) - Rexy
 Stats:
-- Health
-- Energy
-- Brain
-- Money
 - Happiness
+- Social
 - Hygiene
-- Spirit
+- Health
+- Money
+- Energy
 
-Activities:	Health	Energy	Brain	Money	Happiness	Hygiene	Spirit
-- Sleep		+10	+40	0	0	0		0	0
-- Study		-5	-20	+15	0	-15		0	-5
-- Bath		0	+5	0	0	+5		+30	0
-- Sport		+15	-15	+5	-5	+5		-15	+5
-- Work		-10	-20	0	+40	-20		-10	-5
-- Hobby		0	-10	+5	-10	+15		0	+10
-- Pray		0	+5	0	0	+10		0	+15	
-- Hangout	-5	-15	-5	-25	+15		-10	+5
-- Eat		+10	+20	0	-15	+5		0	0
-- Party		-10	-15	-5	-20	+30		-5	-10
+Activities:	Happiness	Social	Hygiene	Health	Money	Energy
+- Sleep		0		0	-10	+15	0	+30
+- Eat		+10		+5	-5	+20	-10	+15
+- Bath		+5		0	+35	+5	0	+5
+- Sport		+5		+15	-15	+15	-5	-20
+- Work		-20		+15	-20	-15	+40	-25
+- Hobby		+20		+25	-5	-5	-15	-10
+- Pray		+10		+5	0	+5	0	0	
+- Hangout	+15		+20	-10	-10	-20	-10
+- Study		-15		+5	-5	-10	0	-20
+- Party		+30		+25	-10	+5	-25	-15
+
+
+FITUR TAMBAHAN (akan ditambahkan pada versi selanjutnya)
 
 Effects:
 Hunger:
@@ -67,6 +73,7 @@ Unproductive:
 	Cause	: Tidak melakukan salah satu dari acitivities: study, work, hobby selama 4 turn berturut-turut
 	Effect	: Brain -10/turn
 	Debuff	: Melakukan salah satu dari activities di atas
+
 
 Effect saat salah satu dari stat == 0:
 - Health	: mati -> gameover

@@ -106,4 +106,4 @@ int valid() {
     }
     
     return crFanboy.life = 0;
-};
+};*/
